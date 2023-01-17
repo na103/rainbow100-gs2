@@ -1,0 +1,73 @@
+Name     U90-U95 ;
+PartNo   00 ;
+Date     14/09/2022 ;
+Revision 01 ;
+Designer Engineer ;
+Company  Nicola Avanzi ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+$define vcc 'b'1
+
+/* *************** INPUT PINS ********************/
+PIN   1  =  i1                    ; /* /UPDateEn */ 
+PIN   2  =  i2                    ; /*  OrTerm   */ 
+PIN   3  =  i3                    ; /*  XORTerm  */ 
+PIN   4  =  i4                    ; /*  RamOut7  */ 
+PIN   5  =  i5                    ; /*  RamOut6  */ 
+PIN   6  =  i6                    ; /*  RamOut5  */ 
+PIN   7  =  i7                    ; /*  RamOut4  */ 
+PIN   8  =  i8                    ; /*  UpDate7  */ 
+PIN   9  =  i9                    ; /*  UpDate6  */ 
+PIN   15  = i15                   ; /*  /Norm    */ 
+PIN   16  = i16                   ; /*  /Inv     */ 
+PIN   17  = i17                   ; /*  UpDate4  */ 
+PIN   18  = i18                   ; /*  UpDate5  */ 
+/* *************** OUTPUT PINS *******************/
+PIN   12  = o12                   ; /*  RamIn5   */ 
+PIN   13  = o13                   ; /*  RamIn6   */ 
+PIN   14  = o14                   ; /*  RamIn7   */ 
+PIN   19  = o19                   ; /*  RamIn4   */ 
+
+
+
+
+!o19 = i1 & !i7
+      # !i2 & !i1 & i3 & !i7 & !i17
+      # i2 & !i1 & !i3 & !i7 & !i17
+      # !i1 & !i3 & i17 & !i16
+      # !i1 & !i2 & i3 & i7 & i17
+      # !i1 & !i2 & !i3 & !i17 & !i15;
+
+!o12 = i1 & !i6
+      # !i2 & !i1 & i3 & !i6 & !i18
+      # i2 & !i1 & !i3 & !i6 & !i18
+      # !i1 & !i3 & i18 & !i16
+      # !i1 & !i2 & i3 & i6 & i18
+      # !i1 & !i2 & !i3 & !i18 & !i15;
+
+!o14 = i1 & !i4
+      # !i2 & !i1 & i3 & !i4 & !i8
+      # i2 & !i1 & !i3 & !i4 & !i8
+      # !i1 & !i3 & i8 & !i16
+      # !i1 & !i2 & i3 & i4 & i8
+      # !i1 & !i2 & !i3 & !i8 & !i15;
+
+!o13 = i1 & !i5
+      # !i2 & !i1 & i3 & !i5 & !i9
+      # i2 & !i1 & !i3 & !i5 & !i9
+      # !i1 & !i3 & i9 & !i16
+      # !i1 & !i2 & i3 & i5 & i9
+      # !i1 & !i2 & !i3 & !i9 & !i15;
+
+o19.oe = vcc;
+
+o12.oe = vcc;
+
+io14.oe = vcc;
+
+io13.oe = vcc;
+
+
+
