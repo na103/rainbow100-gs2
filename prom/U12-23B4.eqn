@@ -1,0 +1,8 @@
+Q7 = A5' A4' A3' A2' A1' A0' + A6' A5' A3' A2' A1' A0' + A5' A4 A3 A2 A1 A0 + A6' A5' A3 A2 A1 A0;
+Q6 = A6 A4 A3 A2 A1 A0 + A6 A5' A3' A2' A1' A0' + A6 A5' A3 A2 A1 A0 + A6' A5' A2' A1' A0;
+Q5 = A5' A3' A2' A1 A0 + A5' A3 A2' A1 A0';
+Q4 = A5' A3 A2 A1' A0 + A5' A3' A2 A1 A0';
+Q3 = A4 A3 A2 A1 A0' + A6' A3 A2 A1 A0';
+Q2 = A6 A4'  + A1'  + A3'  + A2'  + A0 + A5' ;
+Q1 = A8' A7' A5' A3' A2' A1 A0 + A8 A7' A5' A3 A2' A1 A0' + A7' A6' A5' A3' A2' A1 A0 + A7' A6' A5' A3 A2' A1 A0';
+Q0 = A8 A7 A5' A3 A2 A1' A0 + A8' A7 A5' A3' A2 A1 A0' + A7 A6' A5' A3 A2 A1' A0 + A7 A6' A5' A3' A2 A1 A0';
