@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WHC51RFET
+D Ohmite WH Series ceramic Axial Wirewound Resistor 51 1% 2W +/-20ppm/C
+K
+F http://www.ohmite.com/assets/docs/res_wh_wn.pdf?r=false
+$ENDCMP
+#
+#End Doc Library

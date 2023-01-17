@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74F74N
+D Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear And Preset
+K
+F http://www.ti.com/lit/gpn/sn74f74
+$ENDCMP
+#
+#End Doc Library

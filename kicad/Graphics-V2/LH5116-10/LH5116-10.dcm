@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LH5116-10
+D IC SRAM 16KBIT PARALLEL 24DIP
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LH511610.pdf
+$ENDCMP
+#
+#End Doc Library

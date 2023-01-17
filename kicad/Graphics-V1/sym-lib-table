@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name UPD4164C)(type Legacy)(uri ${KIPRJMOD}/4164/UPD4164C.lib)(options "")(descr ""))
+  (lib (name Graphics-rescue)(type Legacy)(uri ${KIPRJMOD}/Graphics-rescue.lib)(options "")(descr ""))
+)

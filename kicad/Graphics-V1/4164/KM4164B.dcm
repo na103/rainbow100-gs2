@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KM4164B
+D 64k x 1 Bit Dynamic RAM
+K
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/102233/SAMSUNG/KM4164B.html
+$ENDCMP
+#
+#End Doc Library

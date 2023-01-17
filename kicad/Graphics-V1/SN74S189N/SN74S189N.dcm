@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74S189N
+D 64 x 1 Bit Static RAM
+K
+F 
+$ENDCMP
+#
+#End Doc Library
