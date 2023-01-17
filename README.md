@@ -3,7 +3,7 @@ this is a reverse engineering of a pretty rare graphics card for [Digital Rainbo
 
 ![alt text](https://github.com/na103/rainbow100-gs2/blob/main/img/Graphics.png "version V2")
 
-has been remake thanks to [Tony Duell's](https://github.com/na103/rainbow100-gs2/blob/main/TonyDuell/graphics%205015687.pdf) schematics and some photos found on the web, the content of [GALs](https://github.com/na103/rainbow100-gs2/tree/main/gal) and [PROMs](https://github.com/na103/rainbow100-gs2/tree/main/prom) are grabbed from the original board.<br>
+has been made thanks to [Tony Duell's](https://github.com/na103/rainbow100-gs2/blob/main/TonyDuell/graphics%205015687.pdf) schematics and some photos found on the web, the content of [GALs](https://github.com/na103/rainbow100-gs2/tree/main/gal) and [PROMs](https://github.com/na103/rainbow100-gs2/tree/main/prom) are grabbed from the original board.<br>
 In repository you can  found kicad schematics of two version:<br>
 V1 is like the original board while V2 version have some corrections, I removed bodge wire and replaces the DIP array resistor with more common SIP.
 <br>
