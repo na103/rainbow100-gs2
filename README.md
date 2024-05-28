@@ -11,6 +11,9 @@ All needed component is in BOM file.
 
 due to time and budget I haven't build and test it yet.<br> 
 I share this my work, <b>completed but non tested</b>, eventualy useful for original board restore<br>
+<br>
+If you found this my work useful, please consider buying me a cup of coffee if you want:<br>
+<a href='https://ko-fi.com/na103' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/cup-border.png' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 # License
 
